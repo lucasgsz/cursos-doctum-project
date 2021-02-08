@@ -59,7 +59,10 @@ include "conexao.php";
         <button class="apagar-curso">APAGAR</button>
         <div class="card-spec-info">
           <a class="titulo"><?php echo $cursoid["nome"]?></a>
+          
+          <!-- Criar uma funcao para verificar se é ead ou presencial, e mudar o css a apartir disso-->
           <a class="modalidade-presencial"><?php echo $cursoid["modalidade"]?></a>
+
           <button class="botao-card">Se inscreva</button>
           <button class="botao-card">Saiba Mais</button>
         </div>

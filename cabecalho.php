@@ -2,6 +2,7 @@
     <div class="cabecalho">
       <nav class="menu">
         <ul>
+          <!-- Criar uma funcao para verificar se o usuario esta conectado-->
           <li><a href="login.php">Login</a></li>
           <li><a href="cadastrar-curso.php">Cadastrar Curso</a></li>
           <li><a href="login.php">Deslogar</a></li>
