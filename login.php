@@ -23,6 +23,6 @@ $cursos = $link->query($teste);
 			<label>Senha</label>
 			<input name="senha" type="text" placeholder="Insira sua senha:">
 		</div>
-		<button>Entrar</button>
+		<button>Login</button>
 	</form>
 </body>
